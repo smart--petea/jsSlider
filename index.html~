@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/snap.svg-min.js"></script>
+		<script type="text/javascript" src="js/underscore.js"></script>
+		<script type="text/javascript" src="js/slider1.js"></script>
+	</head>
+	<body>
+		<svg id="slider">
+		</svg>
+	</body>
+	<script type="text/javascript">
+		var images = [
+			'img/sport1.jpg',
+			'img/sport2.jpg',
+			'img/sport3.jpg',
+	//		'img/sport4.jpg',
+	//		'img/sport5.jpg',
+		];
+
+		var slider1Attr = {
+			width: 292,
+		       height: 210,
+		};
+		$('#slider').slider1('#slider', images, slider1Attr);
+	</script>
+</html>
